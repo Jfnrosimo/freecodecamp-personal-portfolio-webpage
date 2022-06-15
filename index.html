@@ -2,22 +2,23 @@
 <html>
   <head>
     <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Portfolio</title>
     <link type="text/css" rel="stylesheet" href="./styles.css" />
+    <script src="https://kit.fontawesome.com/e39dcaa1df.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <nav id="navbar">
       <a class="nav-text" href="#welcome-section">HOME</a>
       <a class="nav-text" href="#about">ABOUT</a>
       <a class="nav-text" href="#projects">PROJECTS</a>
-      <a class="nav-text" href="#">CONTACT</a>
+      <a class="nav-text" href="#contact">CONTACT</a>
     </nav>
     <main>
       <section id="welcome-section">
       <h1 class="first-intro">I'm Jefferson Rosimo</h1>
       <p class="second-intro">Electronics Engineer & Web Developer</p>
-      <img src="https://images.pexels.com/photos/34600/pexels-photo.jpg" alt="background-pic"/>
+      <img src="./images/programming-photo.jpg" alt="background-pic"/>
       </section>
       <hr>
       <div id="about">
@@ -43,17 +44,32 @@
       </div>
       <div id="projects">
         <h2 class="name">My Projects</h2>
-        <section class="project-tile"><a href="https://jfnrosimo.github.io/freecodecamp-survey-form/" target="_blank">Survey Form<img /></a></section>
-        <section class="project-tile"><a href="https://jfnrosimo.github.io/freecodecamp-tribute-page/" target="_blank">Tribute Page<img /></a></section>
-        <section class="project-tile"><a href="https://jfnrosimo.github.io/freecodecamp-technical-documentation-page/" target="_blank">Technical Documentation Page<img /></a></section>
-        <section class="project-tile"><a href="https://jfnrosimo.github.io/freecodecamp-product-landing-page/" target="_blank">Product Landing Page<img /></a></section>
+        <p class="info"><i>Check out my projects live by clicking on them.</i></p>
+        <section class="project-tile"><a href="https://jfnrosimo.github.io/freecodecamp-survey-form/" target="_blank">Survey Form<img id="project-img" src="./images/survey-form-preview.png" alt="survey-form-preview" /></a></section>
+        <section class="project-tile"><a href="https://jfnrosimo.github.io/freecodecamp-tribute-page/" target="_blank">Tribute Page<img id="project-img" src="./images/tribute-page-preview.png" alt="tribute-page-preview" /></a></section>
+        <section class="project-tile"><a href="https://jfnrosimo.github.io/freecodecamp-technical-documentation-page/" target="_blank">Technical Documentation Page<img id="project-img" src="./images/technical-documentation-page-preview.png" alt="technical-documentation-page-preview" /></a></section>
+        <section class="project-tile"><a href="https://jfnrosimo.github.io/freecodecamp-product-landing-page/" target="_blank">Product Landing Page<img id="project-img" src="./images/product-landing-page-preview.png" alt="product-landing-page-preview" /></a></section>
       </div>
-      <div>
+      <div id="contact">
         <h2 class="name">Contact Me</h2>
+        <i class='fas fa-map-marker-alt' style='font-size:36px'></i>Baguio City and La Trinidad, Benguet, PH <br>
+        <i class='fas fa-phone' style='font-size:30px'></i> Phone: +639103596839 <br>
+        <i class="fas fa-solid fa-envelope" style="font-size: 30px"></i> Email: j.rosimo09@gmail.com
+        <p>Send me a message:</p>
+        <input placeholder="Name"/> <br>
+        <input placeholder="Email" /> <br>
+        <input placeholder="Subject" /> <br>
+        <input placeholder="Message" /> <br>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+            <i class="fa fa-paper-plane"></i> Send Message
+          </button>
       </div>
-      <div>
-        <a id="profile-link" target="_blank"></a>
-      </div>
+      
     </main>
+    <footer>
+       <div id="social">
+        <a id="profile-link" target="_blank"></a>
+      </div> 
+    </footer>
   </body>
 </html>

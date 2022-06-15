@@ -132,7 +132,30 @@
   .project-tile a {
     text-decoration: none;
     color: white;
-    margin: 25px 15% 25px;
+    margin: 25px 0px 25px;
+  }
+
+  .fas {
+    margin: 10px 0px 0px 15%;
+  }
+
+  #projects > section, .info, #contact > input {
+    margin: 10px 15% 5px;
+  }
+
+  #contact > p {
+    margin: 35px 15% 5px;
+  }
+
+  #contact > input {
+    width: 70%;
+    height: 55px;
+  }
+
+  #contact > button {
+    width: 30%;
+    height: 35px;
+    margin: 10px 15% 5px;
   }
 
   @media(max-width: 1600px) {
