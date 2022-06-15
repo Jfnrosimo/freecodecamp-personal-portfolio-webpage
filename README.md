@@ -1,4 +1,4 @@
-##This is my personal portfolio webpage
+##This is my personal portfolio webpage.
 
 ###It makes up the fifth and final project i made in freeCodeCamp's Responsive Web Design.
 
