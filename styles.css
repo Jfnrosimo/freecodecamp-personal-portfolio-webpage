@@ -31,15 +31,22 @@
     font-weight: bold;
     font-size: 1em;
     letter-spacing: 0.3em;
+    padding: 10px;
+    
   }
   
   nav a:hover {
     background: #000000;
+    border-radius: 5px;
   }
   
   main {
     margin-left: 180px;
     padding-top: 0;
+  }
+
+  #about > p, .skills, #projects > p, .project-div, #contact > p {
+    color: #808080;
   }
   
   h1, #welcome-section > p {
@@ -128,11 +135,12 @@
     width: 75%; 
     background-color: #808080;
   } 
-  
+
   .project-tile a {
     text-decoration: none;
     color: white;
     margin: 25px 0px 25px;
+    font-size: 1.2em;
   }
 
   .fas {
@@ -141,6 +149,11 @@
 
   #projects > section, .info, #contact > input {
     margin: 10px 15% 5px;
+  }
+
+  .project-div {
+    width: 60%;
+    margin-bottom: 40px;
   }
 
   #contact > p {
@@ -153,10 +166,16 @@
   }
 
   #contact > button {
-    width: 30%;
+    width: 20%;
     height: 35px;
     margin: 10px 15% 5px;
   }
+
+  #social {
+    margin: 180px 30px 30px 54%;
+    align-items: center;
+  }
+
 
   @media(max-width: 1600px) {
     .first-intro{
